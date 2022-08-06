@@ -1,0 +1,250 @@
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0; }
+
+body {
+  background-color: #0e0f14;
+  padding-bottom: 3em;
+  height: 100vh; }
+
+.navbar__color {
+  background: #020024;
+  background: linear-gradient(to left, #1446D4, #10BEFF); }
+
+.color__ul {
+  color: #fff;
+  font-size: 19px; }
+
+.navbar_main ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 50%;
+  margin: auto; }
+
+.navbar_main ul a:hover {
+  color: #1446D4;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 8px; }
+
+.container-flex {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 13%;
+  align-items: center;
+  gap: 10%; }
+
+.container-flex h1 {
+  color: #fff;
+  font-size: 50px;
+  padding-bottom: 20px; }
+
+.container-flex h1::after {
+  content: "";
+  display: block;
+  width: 125%;
+  height: 7px;
+  background: linear-gradient(to left, #1446D4, #10BEFF); }
+
+.img__movimiento {
+  width: 600px; }
+
+.container__texto {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5%; }
+
+.container__texto a {
+  border: solid 2px #111;
+  border-radius: 10px;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px; }
+
+.container__texto a:hover {
+  background: linear-gradient(to left, #1446D4, #10BEFF);
+  color: #0e0f14; }
+
+.text_main {
+  padding-top: 100px;
+  text-align: center;
+  color: #fff; }
+
+.text_main-2 {
+  text-align: center;
+  color: #fff; }
+
+.card:hover {
+  background: transparent; }
+
+.container-fluid {
+  display: flex;
+  justify-content: space-between; }
+
+.formulario {
+  padding-top: 5%; }
+
+.div__main {
+  border: 3px solid linear-gradient(to left, #1446D4, #10BEFF);
+  width: 80%;
+  border-radius: 20px;
+  background: #1b1b1b;
+  margin: auto; }
+
+.letrasContacto, label {
+  text-align: center;
+  color: #fff;
+  font-size: 20px; }
+
+.formulario input {
+  display: block;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin: auto;
+  padding-top: 10px; }
+
+input {
+  padding-top: 30px;
+  width: 80%;
+  height: 40px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #dadada;
+  font-size: 18px; }
+
+p {
+  padding-top: 70px; }
+
+.d-flex {
+  justify-content: space-evenly; }
+
+.flex-2 {
+  padding-top: 150px; }
+
+.boton__mainContact {
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 50px; }
+
+.boton__mainContact input {
+  background-color: #10BEFF;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #dadada;
+  font-size: 20px;
+  width: 20%;
+  padding-bottom: 40px; }
+
+.text__input {
+  text-align: center;
+  color: #fff;
+  font-size: 20px; }
+
+a {
+  color: #10BEFF; }
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 140px; }
+
+.img__center img {
+  padding-top: 200px;
+  width: 500px; }
+
+.div__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5%; }
+
+.div__container-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.text-format {
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  width: 100%; }
+
+.container img {
+  margin-top: 15% !important; }
+
+.text__nosotros {
+  width: 40%;
+  border: solid 2px #10BEFF;
+  padding: 20px;
+  background-color: #1f1e1e;
+  color: #000000; }
+
+.footer_main {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 2em 0; }
+
+.footer_main_forzar {
+  width: 100%;
+  text-align: center;
+  margin-top: 3%; }
+
+.container-fluid-2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; }
+
+@media (max-width: 1024px) {
+  .container-flex h1 {
+    font-size: 40px; }
+  .container__avion--img {
+    width: 500px; } }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container-flex {
+    display: flex;
+    flex-direction: column; }
+  .container-flex h1 {
+    font-size: 30px; }
+  .row {
+    display: flex;
+    flex-direction: column-reverse; }
+  .img__center img {
+    width: 400px;
+    padding-top: 0px; }
+  .d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; } }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .container-flex h1 {
+    font-size: 40px; }
+  .container-flex {
+    display: flex;
+    flex-direction: column;
+    padding-top: 300px; }
+  .container__avion--img {
+    display: none; }
+  .container-flex h1::after {
+    width: 110%; }
+  .row {
+    display: flex;
+    flex-direction: column-reverse; }
+  .img__center img {
+    width: 360px;
+    padding-top: 0px; }
+  .d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; }
+  .flex-2 {
+    padding-top: 0px; }
+  .mb-6 {
+    padding-bottom: 40%; } }
