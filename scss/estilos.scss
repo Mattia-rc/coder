@@ -3,16 +3,16 @@
 * {
   font-family: "Poppins", sans-serif;
   padding: 0;
-margin: 0;
+  margin: 0;
 }
 
 
 body {
   background-color: #0e0f14;
-  
+
   padding-bottom: 3em;
   height: 100vh;
-  
+
 }
 
 
@@ -103,7 +103,7 @@ body {
   color: #fff;
 }
 
-.text_main-2{
+.text_main-2 {
   text-align: center;
   color: #fff;
 
@@ -113,7 +113,7 @@ body {
   background: transparent;
 }
 
-.container-fluid{
+.container-fluid {
   display: flex;
   justify-content: space-between;
 }
@@ -168,13 +168,14 @@ p {
 
 
 
-.d-flex{
+.d-flex {
   justify-content: space-evenly;
 }
 
-.flex-2{
+.flex-2 {
   padding-top: 150px;
 }
+
 .boton__mainContact {
   margin-top: 50px;
   text-align: center;
@@ -205,17 +206,23 @@ a {
 }
 
 
-.row{
+.row {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 140px;
+  gap: 15px;
+
 }
 
-.img__center img{
-  padding-top: 200px;
-  width: 500px; 
+.img__center img {
+
+  width: 500px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
+
+
 
 
 .div__container {
@@ -240,7 +247,7 @@ a {
   width: 100%;
 }
 
-.container img{
+.container img {
   margin-top: 15% !important;
 }
 
@@ -261,115 +268,126 @@ a {
 }
 
 
-.footer_main_forzar{
+.footer_main_forzar {
   width: 100%;
   text-align: center;
- margin-top: 3%;
+  margin-top: 4%;
+  bottom: 0;
+  padding-top: 4%;
 }
-.container-fluid-2{
+
+.container-fluid-2 {
   display: flex;
   justify-content: space-between;
   gap: 20px;
-  
+
 
 }
-@media (max-width:1024px){
 
-  .container-flex h1{
+
+.h4_main {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border: 2px solid black;
+  background-color: rgb(63, 62, 62);
+  color: #fff;
+}
+
+@media (max-width:1024px) {
+
+  .container-flex h1 {
     font-size: 40px;
   }
-  .container__avion--img{
+
+  .container__avion--img {
     width: 500px;
   }
-  
- 
-
- }
 
 
- 
- @media screen and (min-width:768px) and (max-width:1023px) {
 
-    .container-flex{
-      display: flex;
-      flex-direction: column;
-      
-    }
+}
 
-    .container-flex h1{
-      font-size: 30px;
-    }
 
-      .row{
-        display: flex;
-        flex-direction: column-reverse;
-      
 
-      }
+@media screen and (min-width:768px) and (max-width:1023px) {
 
-      .img__center img{
-        width: 400px;
-        padding-top: 0px;
-      }      
-
-      .d-flex{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-      }
-
-     
-    
-  }
-
-  @media screen and (min-width:320px) and (max-width:768px){
-
-    .container-flex h1{
-      font-size: 40px;
-    }
-
-    .container-flex{
-      display: flex;
-      flex-direction: column;
-      padding-top: 300px;
-    }
-
-      .container__avion--img{
-        display: none;
-      }
-
-      .container-flex h1::after{
-        width: 110%;
-      }
-  
-      .row{
-        display: flex;
-        flex-direction: column-reverse;
-      
-
-      }
-
-      .img__center img{
-        width: 360px;
-        padding-top: 0px;
-      }      
-
-      .d-flex{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-      }
-     
-       .flex-2{
-        padding-top: 0px;
-       }
-       
-       .mb-6{
-        padding-bottom: 40%;
-       }
-      
-       
-      
+  .container-flex {
+    display: flex;
+    flex-direction: column;
 
   }
 
+  .container-flex h1 {
+    font-size: 30px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column-reverse;
+
+
+  }
+
+  .img__center img {
+    width: 400px;
+    padding-top: 0px;
+  }
+
+  .d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+
+
+}
+
+@media screen and (min-width:320px) and (max-width:768px) {
+
+  .container-flex h1 {
+    font-size: 40px;
+  }
+
+  .container-flex {
+    display: flex;
+    flex-direction: column;
+    padding-top: 300px;
+  }
+
+  .container__avion--img {
+    display: none;
+  }
+
+  .container-flex h1::after {
+    width: 110%;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column-reverse;
+
+
+  }
+
+  .img__center img {
+    width: 360px;
+    padding-top: 0px;
+  }
+
+  .d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .flex-2 {
+    padding-top: 0px;
+  }
+
+
+
+
+
+
+}
