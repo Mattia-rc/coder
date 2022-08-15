@@ -3,19 +3,24 @@
   padding: 0;
   margin: 0; }
 
+/* Inicio body */
 body {
   background-color: #0e0f14;
   padding-bottom: 3em;
   height: 100vh; }
 
+/* fin body */
+/* inicio navbar */
 .navbar__color {
   background: #020024;
   background: linear-gradient(to left, #1446D4, #10BEFF); }
 
+/* fin navbar */
 .color__ul {
   color: #fff;
   font-size: 19px; }
 
+/* inicio navbar ul */
 .navbar_main ul {
   display: flex;
   justify-content: space-between;
@@ -23,12 +28,16 @@ body {
   width: 50%;
   margin: auto; }
 
+/* fin navbar ul */
+/* inicio navbar hover */
 .navbar_main ul a:hover {
   color: #1446D4;
   background-color: #fff;
   border-radius: 10px;
   padding: 8px; }
 
+/* fin navbar hover */
+/* inicio container flex */
 .container-flex {
   display: flex;
   justify-content: space-around;
@@ -36,6 +45,7 @@ body {
   align-items: center;
   gap: 10%; }
 
+/* fin container */
 .container-flex h1 {
   color: #fff;
   font-size: 50px;
@@ -48,9 +58,11 @@ body {
   height: 7px;
   background: linear-gradient(to left, #1446D4, #10BEFF); }
 
+/* inicio img */
 .img__movimiento {
   width: 600px; }
 
+/* fin img */
 .container__texto {
   display: flex;
   justify-content: space-around;
@@ -64,10 +76,12 @@ body {
   text-decoration: none;
   font-size: 20px; }
 
+/* inicio container texto */
 .container__texto a:hover {
   background: linear-gradient(to left, #1446D4, #10BEFF);
   color: #0e0f14; }
 
+/* fin container texto */
 .text_main {
   padding-top: 100px;
   text-align: center;
@@ -77,9 +91,11 @@ body {
   text-align: center;
   color: #fff; }
 
+/* inicio card */
 .card:hover {
   background: transparent; }
 
+/* fin card */
 .container-fluid {
   display: flex;
   justify-content: space-between; }
@@ -87,6 +103,7 @@ body {
 .formulario {
   padding-top: 5%; }
 
+/* inciio main */
 .div__main {
   border: 3px solid linear-gradient(to left, #1446D4, #10BEFF);
   width: 80%;
@@ -94,11 +111,13 @@ body {
   background: #1b1b1b;
   margin: auto; }
 
+/* fin main */
 .letrasContacto, label {
   text-align: center;
   color: #fff;
   font-size: 20px; }
 
+/* inicio formulario */
 .formulario input {
   display: block;
   margin-left: 30%;
@@ -106,6 +125,7 @@ body {
   margin: auto;
   padding-top: 10px; }
 
+/* fin formulario */
 input {
   padding-top: 30px;
   width: 80%;
@@ -118,17 +138,22 @@ input {
 p {
   padding-top: 70px; }
 
+/* inicio d/flez */
 .d-flex {
   justify-content: space-evenly; }
 
+/* fin d/flex */
 .flex-2 {
   padding-top: 150px; }
 
+/* inicio boton */
 .boton__mainContact {
   margin-top: 50px;
   text-align: center;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  padding-bottom: 10px; }
 
+/* fin boton */
 .boton__mainContact input {
   background-color: #10BEFF;
   border-radius: 20px;
@@ -138,11 +163,13 @@ p {
   width: 20%;
   padding-bottom: 40px; }
 
+/* inicio texto */
 .text__input {
   text-align: center;
   color: #fff;
   font-size: 20px; }
 
+/* fin texto */
 a {
   color: #10BEFF; }
 
@@ -159,24 +186,40 @@ a {
   padding-bottom: 20px;
   padding-top: 20px; }
 
+/* inicio img */
 .img_carousel {
   height: 666px;
   width: 60%; }
 
+/* fin img */
 .div__container {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-top: 5%; }
 
+.img_gobernato {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5%;
+  gap: 10px; }
+
+.img_gobernato img {
+  width: 900px;
+  border-radius: 10px; }
+
+/* inicio container */
 .div__container-2 {
   display: flex;
   justify-content: space-around;
   align-items: center; }
 
+/* FIN CONTAINER */
 .container img {
   margin-top: 15% !important; }
 
+/* inicio texto */
 .text__nosotros {
   width: 40%;
   border: solid 2px #10BEFF;
@@ -184,6 +227,7 @@ a {
   background-color: #1f1e1e;
   color: #000000; }
 
+/* fin texto */
 .footer_main {
   position: absolute;
   bottom: 0;
@@ -191,12 +235,14 @@ a {
   text-align: center;
   padding: 2em 0; }
 
+/* inicio footer */
 .footer_main_forzar {
   width: 100%;
   text-align: center;
   bottom: 0;
   padding-top: 3%; }
 
+/* fin footer */
 .container-fluid-2 {
   display: flex;
   justify-content: space-between;
@@ -204,6 +250,7 @@ a {
   padding-top: 70px;
   margin-bottom: 2%; }
 
+/* INICIO H4 */
 .h4_main, .text-format {
   padding-top: 30px;
   padding-bottom: 20px;
@@ -212,6 +259,11 @@ a {
   color: #fff;
   border-radius: 10px;
   margin: 10px; }
+
+/* fin h4 */
+.heigth_alt {
+  height: 256px;
+  width: 300px; }
 
 @media (max-width: 1024px) {
   .container-flex h1 {
@@ -234,7 +286,13 @@ a {
   .d-flex {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px; } }
+    gap: 20px; }
+  .img_gobernato {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; }
+  .img_gobernato img {
+    width: 600px; } }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .container-flex h1 {
@@ -258,4 +316,15 @@ a {
     flex-wrap: wrap;
     gap: 20px; }
   .flex-2 {
-    padding-top: 0px; } }
+    padding-top: 0px; }
+  .container-fluid-2 {
+    display: flex;
+    flex-wrap: wrap; }
+  .img_carousel {
+    width: 600px; }
+  .img_gobernato {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; }
+  .img_gobernato img {
+    width: 480px; } }
