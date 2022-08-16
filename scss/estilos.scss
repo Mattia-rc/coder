@@ -327,6 +327,18 @@ padding-top: 70px;
 }
 
 
+.text_main-p{
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+  background-color: rgb(63, 62, 62);
+  border: 2px solid black;
+margin: 20px;
+}
+
+
+
 
 @media (max-width:1024px) {
 
@@ -448,5 +460,9 @@ padding-top: 70px;
     width: 360px;
   }
 
+
+  .text_main-p {
+    width: 90%;
+  }
 
 }

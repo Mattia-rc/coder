@@ -265,6 +265,15 @@ a {
   height: 256px;
   width: 300px; }
 
+.text_main-p {
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+  background-color: #3f3e3e;
+  border: 2px solid black;
+  margin: 20px; }
+
 @media (max-width: 1024px) {
   .container-flex h1 {
     font-size: 40px; }
@@ -328,4 +337,6 @@ a {
     flex-wrap: wrap;
     gap: 20px; }
   .img_gobernato img {
-    width: 360px; } }
+    width: 360px; }
+  .text_main-p {
+    width: 90%; } }
