@@ -316,7 +316,8 @@ a {
     flex-wrap: wrap;
     gap: 20px; }
   .flex-2 {
-    padding-top: 0px; }
+    padding-top: 0px;
+    margin-top: 3%; }
   .container-fluid-2 {
     display: flex;
     flex-wrap: wrap; }
@@ -327,4 +328,4 @@ a {
     flex-wrap: wrap;
     gap: 20px; }
   .img_gobernato img {
-    width: 480px; } }
+    width: 360px; } }
