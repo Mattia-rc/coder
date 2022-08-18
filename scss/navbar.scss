@@ -1,0 +1,33 @@
+
+/* inicio navbar */
+.navbar__color {
+    background: rgb(2, 0, 36);
+    background: $background-1;
+  
+  }
+  /* fin navbar */
+  
+  .color__ul {
+    color: #fff;
+    font-size: 19px;
+  }
+  
+  /* inicio navbar ul */
+  .navbar_main ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 50%;
+    margin: auto;
+  }
+  /* fin navbar ul */
+  /* inicio navbar hover */
+  .navbar_main ul a:hover {
+  
+    color: #1446D4;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 8px;
+  }
+  /* fin navbar hover */
+  
