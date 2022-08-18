@@ -337,4 +337,6 @@ a {
   .img_gobernato img {
     width: 310px; }
   .text_main-p {
-    width: 90%; } }
+    width: 90%; }
+  .boton__mainContact input {
+    width: 100px; } }
