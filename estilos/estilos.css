@@ -201,7 +201,7 @@ a {
 
 /* inicio img */
 .img_carousel {
-  height: 500px;
+  height: 530px;
   width: 55%; }
 
 /* fin img */
@@ -328,7 +328,8 @@ a {
     display: flex;
     flex-wrap: wrap; }
   .img_carousel {
-    width: 500px; }
+    width: 346px;
+    height: 300px; }
   .img_gobernato {
     display: flex;
     flex-wrap: wrap;
